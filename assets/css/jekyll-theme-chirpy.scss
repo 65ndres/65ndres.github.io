@@ -10,7 +10,8 @@
 /* append your custom style below */
 
 .card-text {
-    color: #e5cfa1 !important;
+    // color: #e5cfa1 !important;
+    color: #C6B27D !important;
 }
 
 #sidebar ul li.nav-item.active .nav-link {
@@ -38,7 +39,8 @@
 }
 
 #panel-wrapper .panel-heading {
-    color: #E5CFA1;
+    // color: #E5CFA1;
+    color: #C6B27D !important
 }
 
 .access>section {
@@ -51,7 +53,8 @@ body, #sidebar {
 }
 
 header .post-desc, #search-results a, h5, h4, h3, h2, h1 {
-    color: #e5cfa1;
+    // color: #e5cfa1;
+    color: #C6B27D !important;
 }
 
 #topbar-wrapper {
@@ -67,11 +70,13 @@ footer {
 }
 
 #post-list .card .card-body .card-title {
-    color: #e5cfa1 !important;
+    // color: #e5cfa1 !important;
+    color: #C6B27D !important;
 }
 
 #post-list .card .card-body .post-meta, .card-text.content {
-    color: #E5CFA1 !important;
+    // color: #E5CFA1 !important;
+    color: #C6B27D !important;
 }
 
 #post-list .card .card-body .card-text.content {
@@ -100,12 +105,14 @@ search, search:active  {
 }
 
 #sidebar .site-title a, #sidebar .site-title a:hover {
-    color: #E5CFA1;
+    // color: #E5CFA1;
+    color: #C6B27D !important;
     text-transform: uppercase;
 }
 
 #sidebar .site-subtitle {
-    color: #E5CFA1;
+    // color: #E5CFA1;
+    color: #C6B27D !important;
     text-transform: uppercase;
     font-style: normal !important;
     text-align: center;
@@ -120,5 +127,6 @@ search, search:active  {
 // beige #C6B27D
 // dark-beige #B68448
 
+// color: #C6B27D !important
 
 
