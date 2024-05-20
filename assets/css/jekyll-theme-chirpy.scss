@@ -7,105 +7,39 @@
 {%- endif -%}
 ';
 
+// dark-blue #0F2026 
+// blue #142B34
+// light-beige #E5CFA1
+// beige #C6B27D
+// dark-beige #B68448
+
 @import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
-.card-text {
-    // color: #e5cfa1 !important;
+body, main, h1, h2, h3, h4, h5, h6, p {
+    font-family: Spectral !important;
+}
+
+header .post-desc, #search-results a, h5, h4, h3, h2, h1,
+.card-text, #panel-wrapper .panel-heading, #post-list .card .card-body .card-title,
+#post-list .card .card-body .post-meta, .card-text.content, #sidebar .sidebar-bottom a,
+#topbar-title {
     color: #C6B27D !important;
 }
 
-#sidebar ul li.nav-item.active .nav-link {
+body, #sidebar, #topbar-wrapper, footer, .post-preview,
+#sidebar ul li.nav-item.active .nav-link, search, search:active, 
+#sidebar ul li.nav-item a.nav-link:hover,
+#sidebar .sidebar-bottom a {
     background-color: #142B34;
 }
 
-#sidebar ul li.nav-item a.nav-link:hover {
-    background-color: #142B34;
-}
-
-#search-results a, #search-hints .post-tag, a {
-    color: #B68448;
-}
-
-.post-tail-wrapper .post-meta a:not(:hover) {
-    border-bottom: 1px solid #B68448;
-}
-
-#toc-wrapper ul .is-active-link {
-    color: #B68448 !important;
-}
-
-#toc-wrapper ul .is-active-link::before {
-    background-color: #B68448 !important;
-}
-
-#panel-wrapper .panel-heading {
-    // color: #E5CFA1;
-    color: #C6B27D !important
-}
-
-.access>section {
-    border-left: 1px solid #B68448;
-}
-
-body, #sidebar {
-    background: #142B34;
-    /* font-family: spectral; */
-}
-
-header .post-desc, #search-results a, h5, h4, h3, h2, h1 {
-    // color: #e5cfa1;
-    color: #C6B27D !important;
-}
-
-#topbar-wrapper {
-    background-color:#142B34;
-}
-
-footer {
-    background-color: #142B34;
-}
-
-.post-preview {
-    background-color: #142B34 !important;
-}
-
-#post-list .card .card-body .card-title {
-    // color: #e5cfa1 !important;
-    color: #C6B27D !important;
-}
-
-#post-list .card .card-body .post-meta, .card-text.content {
-    // color: #E5CFA1 !important;
-    color: #C6B27D !important;
-}
-
-#post-list .card .card-body .card-text.content {
-    color: var(--text-color) !important;
-}
-
-search, search:active  {
-    background-color: #142B34;
-    /* border: 1px solid #E5CFA1; */
-}
-
-.post-tags {
-    color: #B68448;
-}
-
-.post-tags .post-tag {
-    color: #B68448;
-}
-
+#search-results a, #search-hints .post-tag, a, 
+#toc-wrapper ul .is-active-link, .post-tags, .post-tags .post-tag,
 .post-meta {
     color: #B68448;
 }
 
-#avatar {
-    display: none !important;
-}
-
 #sidebar .site-title a, #sidebar .site-title a:hover {
-    // color: #E5CFA1;
     color: #C6B27D !important;
     text-transform: uppercase;
     font-size: 1.5rem;
@@ -113,7 +47,6 @@ search, search:active  {
 }
 
 #sidebar .site-subtitle {
-    // color: #E5CFA1;
     color: #C6B27D !important;
     text-transform: uppercase;
     font-style: normal !important;
@@ -121,30 +54,26 @@ search, search:active  {
     font-size: small;
 }
 
-
-// @font-face {
-//     font-family: 'Spectral'; /*a name to be used later*/
-//     src: url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap')
-// }
-
-
-
-body, main, h1, h2, h3, h4, h5, h6, p {
-    font-family: Spectral !important;
+#topbar-title {
+    font-weight: 500;
 }
 
-
-#sidebar .sidebar-bottom a {
-    color: #C6B27D !important;
-    background-color: #142B34 !important;
+#toc-wrapper ul .is-active-link::before {
+    background-color: #B68448 !important;
 }
 
-// dark-blue #0F2026 
-// blue #142B34
-// light-beige #E5CFA1
-// beige #C6B27D
-// dark-beige #B68448
+.access>section {
+    border-left: 1px solid #B68448;
+}
 
-// color: #C6B27D !important
+.post-tail-wrapper .post-meta a:not(:hover) {
+    border-bottom: 1px solid #B68448;
+}
 
+#post-list .card .card-body .card-text.content {
+    color: var(--text-color) !important;
+}
 
+#avatar {
+    display: none !important;
+}
