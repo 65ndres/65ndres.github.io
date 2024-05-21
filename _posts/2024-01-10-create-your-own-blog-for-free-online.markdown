@@ -1,0 +1,100 @@
+---
+title: Create Your Own Blog For Free Online
+date: 2024-01-10 12:00:00 -500
+categories: [homelab]
+tags: [tutorial,jekyll,Chirpy]
+---
+
+
+Yes, you read that right! with only a few easy steps you can get your own blog / portfolio, no need of backend or databases and cache free ? If you dont know it by now I'm referring to Jekyll, the static site generator made by Github. I belive Jekyll is the perfect solution for me, comvining blog like features and the automony of allowing me to keep a local copy of every posts as code.
+
+## Game Plan
+
+1. Jekyll installation via Chirpy
+2. Create our first post.
+3. Edit Chirpy.
+4. Deployment.
+
+Before installing Jekyll lets make sure we have all the dependencies install using the command bellow
+
+```bash
+sudo apt-get install ruby-full build-essenecials zlib1g-dev
+```
+
+### Jekyll installation via Chirpy
+
+<!-- [Hello, world!](http://example.com/){target="_blank"} -->
+
+After our dependencies have been install we need to install [Jekyll](https://jekyllrb.com/) but there is an amazing and easy to use starter out there called [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy). Chirpy is clean, minimal, has good SEO and has the search function built in.From their Github repo you will find their [ official documentation](https://chirpy.cotes.page/posts/getting-started/) website that should look like below.
+
+[Screenshot of how the page looks like ]
+
+Here you will be given two option for installation: 
+ * Use the starter
+ * Fork the repo
+
+We are gonna use the starter, clicking on the starter option it will take you to the starter's github page where you should see the "Use this template" option if youre logged into Github. Click on it and make sure you use the following format when naming your repo `<USERNAME.github.io>` if you want the site to be automatically deployed to Github pages (Also make sure the repo is set to Public)
+
+Next we will clone the repo, cd into it and install projects dependencies with bundle
+
+```bash
+git clone git@github.com:65ndres/65ndres.github.io.git
+cd 65ndres.github.io.git
+bundle
+```
+
+and now that all the dependencies are install we are gonna start Jekyll with:
+
+```bash
+bundle exec jekyll s
+```
+
+We should be able to open `http://localhost:4000` and see out site running like so:
+
+[Image of the site running]
+
+### Create first post
+
+To create our first post we need to create a file inside the `_posts` folder with the following pattern: `YYYY-MM-DD-post-title.markdown`. This very specific blog post in my repo is named `2024-01-10-create-your-own-blog-for-free.markdown`. Now that the file is created we are gonna create our content which we are gonna manage as code written in markdown syntax (Here is a [link](https://markdownguide.offshoot.io/basic-syntax/) with the documentation for it ).
+
+Before getting started with our post we will need to add some metadata at the very top of our file like so:
+
+```
+---
+title: Create Your Own Blog For Free Online
+date: 2024-01-10 12:00:00 -500
+categories: [homelab]
+tags: [tutorial,jekyll,Chirpy]
+---
+
+[Markdown syntax below]
+```
+
+After the saving you should see the post apppear in the home page of the site.
+
+
+### Edit Chirpy
+
+Now that we have added content by creating our first post we might want to change congifuration Chirpy has a default like SEO tags, socials urls, web analytics settings, timezone and more. To edit these values head over to the `_config.yml` file. If you want to make changes to the website's theme you will have to create a file called `jekyll-theme-chirpy.scss` inside the `assets/css` folder and add the following piece of code at the very top.
+
+```scss
+---
+---
+
+@import 'main {% raw  %}
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}{% endraw %}
+';
+```
+
+### Deployment
+
+If you want to host the site using Github Pages then youre done. Yes, you read that right, most of the deployment process is being handled for us by the Github action in the `github/workflows/pages-deploy.yml` file. Head over `<YOURUSERNAME>.github.io` to see your site live.
+
+## Conclusion
+
+Jekyll is an amazing and quick and easy solution for deploying your own blog for free.
+
+
+
