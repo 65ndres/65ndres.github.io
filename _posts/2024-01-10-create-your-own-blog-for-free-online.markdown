@@ -5,8 +5,7 @@ categories: [homelab]
 tags: [tutorial,jekyll,Chirpy]
 ---
 
-
-Yes, you read that right! with only a few easy steps you can get your own blog / portfolio, no need of backend or databases and cache free ? If you dont know it by now I'm referring to Jekyll, the static site generator made by Github. I belive Jekyll is the perfect solution for me, comvining blog like features and the automony of allowing me to keep a local copy of every posts as code.
+Yes, you read that right! with only a few steps you can get your own blog / portfolio live for free. If you dont know it by now I'm referring to Jekyll, the static site generator made by Github that does not need a database or a backend. I belive Jekyll is the perfect solution for me, combining blog like features and the automony of allowing me to keep a local copy of every posts as code.
 
 ## Game Plan
 
@@ -15,7 +14,7 @@ Yes, you read that right! with only a few easy steps you can get your own blog /
 3. Edit Chirpy.
 4. Deployment.
 
-Before installing Jekyll lets make sure we have all the dependencies install using the command bellow
+Before installing Jekyll lets make sure we have all the dependencies installed using the command bellow
 
 ```bash
 sudo apt-get install ruby-full build-essenecials zlib1g-dev
@@ -23,9 +22,7 @@ sudo apt-get install ruby-full build-essenecials zlib1g-dev
 
 ### Jekyll installation via Chirpy
 
-<!-- [Hello, world!](http://example.com/){target="_blank"} -->
-
-After our dependencies have been install we need to install [Jekyll](https://jekyllrb.com/) but there is an amazing and easy to use starter out there called [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy). Chirpy is clean, minimal, has good SEO and has the search function built in.From their Github repo you will find their [ official documentation](https://chirpy.cotes.page/posts/getting-started/) website that should look like below.
+After our dependencies have been installed we need to install [Jekyll](https://jekyllrb.com/) but there is an amazing and easy to use starter out there called [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy). Chirpy is clean, minimal, has good SEO and has the search function built in.From their Github repo you will find their [ official documentation](https://chirpy.cotes.page/posts/getting-started/) website that should look like below.
 
 [Screenshot of how the page looks like ]
 
@@ -33,13 +30,13 @@ Here you will be given two option for installation:
  * Use the starter
  * Fork the repo
 
-We are gonna use the starter, clicking on the starter option it will take you to the starter's github page where you should see the "Use this template" option if youre logged into Github. Click on it and make sure you use the following format when naming your repo `<USERNAME.github.io>` if you want the site to be automatically deployed to Github pages (Also make sure the repo is set to Public)
+We are gonna use the starter, clicking on the starter option should take you to the starter's github page where you should see the "Use this template" option if you're logged into Github. Click on it and make sure you use the following format when naming your repo `<USERNAME.github.io>` if you want the site to be automatically deployed using Github pages (Also make sure the repo is set to Public)
 
-Next we will clone the repo, cd into it and install projects dependencies with bundle
+Next we will clone the repo, cd into it and install the projects dependencies with bundle
 
 ```bash
 git clone git@github.com:65ndres/65ndres.github.io.git
-cd 65ndres.github.io.git
+cd 65ndres.github.io
 bundle
 ```
 
@@ -53,9 +50,9 @@ We should be able to open `http://localhost:4000` and see out site running like 
 
 [Image of the site running]
 
-### Create first post
+### Create our first post
 
-To create our first post we need to create a file inside the `_posts` folder with the following pattern: `YYYY-MM-DD-post-title.markdown`. This very specific blog post in my repo is named `2024-01-10-create-your-own-blog-for-free.markdown`. Now that the file is created we are gonna create our content which we are gonna manage as code written in markdown syntax (Here is a [link](https://markdownguide.offshoot.io/basic-syntax/) with the documentation for it ).
+To create our first post we need to create a file inside the `_posts` folder with the following naming pattern: `YYYY-MM-DD-post-title.markdown`. This very specific blog post in my repo is named as `2024-01-10-create-your-own-blog-for-free.markdown`. Now that the file is created we are gonna add our content which we are gonna manage as code written in markdown syntax (Here is a [link](https://markdownguide.offshoot.io/basic-syntax/) with the documentation for it ).
 
 Before getting started with our post we will need to add some metadata at the very top of our file like so:
 
@@ -94,7 +91,7 @@ If you want to host the site using Github Pages then youre done. Yes, you read t
 
 ## Conclusion
 
-Jekyll is an amazing and quick and easy solution for deploying your own blog for free.
+Jekyll is an amazing, quick and easy solution for deploying your own blog for free.
 
 
 

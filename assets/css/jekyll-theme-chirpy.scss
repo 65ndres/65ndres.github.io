@@ -4,8 +4,7 @@
 @import 'main
 {%- if jekyll.environment == 'production' -%}
   .bundle
-{%- endif -%}
-';
+{%- endif -%}';
 
 // dark-blue #0F2026 
 // blue #142B34
@@ -78,18 +77,20 @@ body, #sidebar, #topbar-wrapper, footer, .post-preview,
     display: none !important;
 }
 
+article .content a:not(.img-link), .content a:not(.img-link):hover {
+    border-bottom: 1px solid #B68448 !important;
+    color: #B68448 !important;
+}
 
+#toc-wrapper ul .is-active-link, #toc-wrapper ul .toc-link:hover {
+color: #B68448 !important;
+}
 
+.post-navigation .btn:not(:hover) {
+    color:#B68448 !important;
+}
 
-// Mostly improved rails app
-
-
-// Resumen professional
-
-// Years of experience
-
-// Things I enjoy doing
-
-// Type of company I have worked for
-
-// Buscar oportunidad de inversion in la zona de alicante 
+.highlighter-rouge {
+    color:#B68448 !important;
+}
+// , .content a:not(.img-link):hover
