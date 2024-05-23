@@ -93,4 +93,11 @@ color: #B68448 !important;
 .highlighter-rouge {
     color:#B68448 !important;
 }
-// , .content a:not(.img-link):hover
+
+footer p {
+    display: none;
+}
+
+header .post-meta em a {
+    display: none;
+}
