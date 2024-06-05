@@ -101,3 +101,7 @@ footer p {
 header .post-meta em a {
     display: none;
 }
+
+html[data-mode=dark] #archives li:nth-child(odd) {
+    background-color: #142B34 !important;
+}
