@@ -1,8 +1,8 @@
 ---
-title: Create Your Own Blog For Free Online
+title: Host your Static Rails App For Free Using Github Pages 
 date: 2024-01-10 12:00:00 -500
 categories: [programming]
-tags: [tutorial,jekyll,Chirpy]
+tags: [Tutorial,Jekyll,Rails,Github Pages]
 ---
 
 Yes, you read that right! with only a few steps you can get your own blog / portfolio live for free. If you dont know it by now I'm referring to Jekyll, the static site generator made by Github that does not need a database or a backend. I believe Jekyll is the perfect solution for me, combining blog-like features and the autonomy of allowing me to keep a local copy of every post as code.

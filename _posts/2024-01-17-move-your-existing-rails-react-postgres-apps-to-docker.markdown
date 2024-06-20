@@ -2,7 +2,7 @@
 title: Move Your Existing Rails, React and Postgres to Docker
 date: 2024-01-17 12:00:00 -500
 categories: [programming]
-tags: [tutorial,docker,rails,react,postgres]
+tags: [Tutorial,Docker,Rails,React,Postgres]
 ---
 
 Suppose you started building a full stack application using React and Rails and then you realized you wanted to containerize it using Docker so that all developers on your team can have the same consistent developer experience. The goal is to Dockerize an existing application so that deployment of your application is seamless and reduces uncertainty across environments

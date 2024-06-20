@@ -2,7 +2,7 @@
 title: Deploy your Docker Rails 7.1 app to AWS
 date: 2024-05-02 12:00:00 -500
 categories: [programming]
-tags: [tutorial,docker,rails,aws,nginx]
+tags: [Tutorial,Docker,Rails,AWS,Nginx]
 ---
 
 Rails 7.1 came out recently and it now comes with its own Dockerfile, Ill be going over how easy it is to use it by deploying to AWS.
