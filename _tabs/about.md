@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-I'm Andres Rojas, a skilled and innovative Software Developer with a passion for transforming ideas into efficient, scalable, and user-friendly solutions. What sets me apart is my passion for innovation and my ability to rapidly adapt to the dynamic pace of startups. From crafting MVPs to optimizing scalable systems, I'm driven to contribute my technical expertise to fuel the success of the team.
+I'm Andres Rojas, an innovative Software Developer with a passion for transforming ideas into efficient, scalable, and user-friendly solutions. What sets me apart is my passion for innovation and my ability to rapidly adapt to the dynamic pace of startups. From crafting MVPs to optimizing scalable systems, I'm driven to contribute my technical expertise to fuel the success of the team.
 
 ## Recent Projects
 
@@ -20,7 +20,7 @@ I'm Andres Rojas, a skilled and innovative Software Developer with a passion for
 * Infra (Docker, AWS & Heroku)
 
 
-## Software Egineering Philosophy
+## Software Engineering Philosophy
 
 Code with clarity, design with intention. My philosophy is grounded in precision, innovation, and continuous learning. Strive for elegant solutions and embrace challenges as stepping stones for the best possible outcome.
 

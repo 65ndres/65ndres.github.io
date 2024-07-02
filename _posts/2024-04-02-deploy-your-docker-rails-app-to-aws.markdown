@@ -1,6 +1,6 @@
 ---
 title: Deploy your Docker Rails 7.1 app to AWS
-date: 2024-05-02 12:00:00 -500
+date: 2024-04-02 12:00:00 -500
 categories: [programming]
 tags: [Tutorial,Docker,Rails,AWS,Nginx]
 ---

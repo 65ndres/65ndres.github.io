@@ -1,6 +1,6 @@
 ---
 title: Host your Static Rails App For Free Using Github Pages 
-date: 2024-01-10 12:00:00 -500
+date: 2024-02-01 12:00:00 -500
 categories: [programming]
 tags: [Tutorial,Jekyll,Rails,Github Pages]
 ---

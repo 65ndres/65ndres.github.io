@@ -1,6 +1,6 @@
 ---
 title: Move Your Existing Rails, React and Postgres to Docker
-date: 2024-01-17 12:00:00 -500
+date: 2024-03-02 12:00:00 -500
 categories: [programming]
 tags: [Tutorial,Docker,Rails,React,Postgres]
 ---
@@ -257,10 +257,3 @@ And if you end up with quite a few images and containers that are taking up too 
 ```bash
 docker system prune --all
 ```
-## Conclusion
-
-
-<!-- order. Create new folder structure -->
-<!-- create docker file for each -->
-<!-- create docker-compose file -->
-<!-- build images -->
