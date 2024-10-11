@@ -1,6 +1,6 @@
 ---
 title: Big O Notation
-date: 2024-06-01 12:00:00 -500
+date: 2024-01-03 12:00:00 -500
 categories: [Back to Basics]
 tags: [Basics, Computer Science, Big O Notation, Python ]
 ---
